@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using Year3ConsoleApp.Basics;
-using Year3ConsoleApp.Testing;
+using Year3ConsoleApp.Calculator;
 using Year3ConsoleApp.Week2;
 
 

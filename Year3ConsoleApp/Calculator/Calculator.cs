@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Year3ConsoleApp.Testing
+namespace Year3ConsoleApp.Calculator
 {
     public class Calculator
     {
