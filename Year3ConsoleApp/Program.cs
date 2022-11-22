@@ -3,6 +3,7 @@
 using Year3ConsoleApp.Basics;
 using Year3ConsoleApp.Calculator;
 using Year3ConsoleApp.Week2;
+using Year3ConsoleApp.Week3;
 
 
 //getting input from users
@@ -37,6 +38,10 @@ Console.WriteLine("Press 11 for While Statement Example");
 Console.WriteLine("Press 12 for Do-While Statement Example");
 Console.WriteLine("Press 13 for For Statement Example");
 Console.WriteLine("Press 14 for For-Each Statement Example");
+Console.WriteLine("Press 15 for Prime Number Example");
+Console.WriteLine("Press 16 for Odd-Even Example");
+Console.WriteLine("Press 17 for Swap two numbers Example");
+Console.WriteLine("Press 18 for Search Statement Example");
 Console.Write("Your option? ");
 
 var a = Console.ReadLine();
@@ -84,6 +89,18 @@ switch (a)
         break;
     case "14":
         ControlStatement.ForEachLoop();
+        break;
+    case "15":
+        Prime.isPrime();
+        break;
+    case "16":
+        OddEven.isOddEven();
+        break;
+    case "17":
+        Swap.SwapNumbers();
+        break;
+    case "18":
+        Search.SearchFruit();
         break;
     default:
         Interpolation.StringInterpolation();

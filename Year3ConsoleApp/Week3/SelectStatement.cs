@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Year3ConsoleApp.week3
+namespace Year3ConsoleApp.Week3
 {
     public class SelectStatement
     {
